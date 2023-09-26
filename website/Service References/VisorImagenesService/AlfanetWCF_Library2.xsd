@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" />
+  <xs:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="GetFacturaImagenById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GrupoCodigo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FacturaCodigo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q1:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetFacturaImagenByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetFacturaImagenByIdResult" nillable="true" type="q2:ArrayOfstring" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="rutas" nillable="true" type="q3:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRutaImagenById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ImagenRutaCodigo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q4:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetRutaImagenByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="GetRutaImagenByIdResult" nillable="true" type="q5:ArrayOfstring" />
+        <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="rutas" nillable="true" type="q6:ArrayOfstring" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectRutaCodigoFacturas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="path" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q7:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectRutaCodigoFacturasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectRutaCodigoFacturasResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertRutaImagen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ImagenRutaCodigo" type="xs:int" />
+        <xs:element minOccurs="0" name="ImagenRutaDescripcion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ImagenRutaAnio" type="xs:int" />
+        <xs:element minOccurs="0" name="ImagenRutaMes" type="xs:int" />
+        <xs:element minOccurs="0" name="ImagenRutaGrupo" type="xs:int" />
+        <xs:element minOccurs="0" name="ImagenRutaPath" nillable="true" type="xs:string" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q8:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertRutaImagenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertRutaImagenResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="RutaCodigo" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFacturaImagen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="radicadoCodigo" type="xs:int" />
+        <xs:element minOccurs="0" name="GrupoCodigo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="imagenNombre" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ImagenRutaCodigo" type="xs:int" />
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q9:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertFacturaImagenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertFacturaImagenResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarImagen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="FacturaCodigo" type="xs:int" />
+        <xs:element minOccurs="0" name="FacturaImagenFolio" type="xs:int" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q10:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EliminarImagenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EliminarImagenResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="649491c0-8cd3-440f-ba75-062e3774a448" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57962/AlfanetWCF_Library.DocumentosFisicosService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AlfanetWCF_Library.disco" MetadataType="Disco" ID="5b259211-99fe-47f9-a7d3-0c34b74150f3" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.DocumentosFisicosService.svc?disco" />
+    <MetadataFile FileName="AlfanetWCF_Library.xsd" MetadataType="Schema" ID="dcdd57ea-adcb-45e0-a742-f1f53d487c8c" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.DocumentosFisicosService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AlfanetWCF_Library1.xsd" MetadataType="Schema" ID="2dac7e96-bd08-4bd2-87db-ea444d374089" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.DocumentosFisicosService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AlfanetWCF_Library2.xsd" MetadataType="Schema" ID="e5ee6734-ece3-4954-a20e-b44373bcebc7" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.DocumentosFisicosService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DocumentosFisicosService1.wsdl" MetadataType="Wsdl" ID="ee39223b-7a63-4ebc-ba4f-44d4f8895915" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.DocumentosFisicosService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

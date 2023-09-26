@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="477db251-cc4f-4e2d-b70c-f7b58448ba30" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:57962/AlfanetWCF_Library.VisorImagenesService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="AlfanetWCF_Library.disco" MetadataType="Disco" ID="1a07ae25-e28b-47c8-b65c-37586cf36fee" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?disco" />
+    <MetadataFile FileName="AlfanetWCF_Library.xsd" MetadataType="Schema" ID="7353587e-9104-4952-94af-38b7648a7a7f" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?xsd=xsd2" />
+    <MetadataFile FileName="AlfanetWCF_Library1.xsd" MetadataType="Schema" ID="88a685c4-2467-41ca-8e57-961a199a792d" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?xsd=xsd3" />
+    <MetadataFile FileName="AlfanetWCF_Library2.xsd" MetadataType="Schema" ID="99b896cc-98aa-4bb4-8e15-37ab2183519f" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?xsd=xsd0" />
+    <MetadataFile FileName="AlfanetWCF_Library3.xsd" MetadataType="Schema" ID="113c50b2-c660-4a8e-bbb2-45a75d06500e" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?xsd=xsd1" />
+    <MetadataFile FileName="VisorImagenesService1.wsdl" MetadataType="Wsdl" ID="5ca3612d-e297-4fc4-82e3-62ffcffaceef" SourceId="1" SourceUrl="http://desktop-1aeev3k:57962/AlfanetWCF_Library.VisorImagenesService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

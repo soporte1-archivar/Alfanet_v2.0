@@ -1,0 +1,102 @@
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.csprojResolveAssemblyReference.cache
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.Dal.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonLibrary.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.CommonObject.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Alfanet.ConnectionManager.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\bin\Release\Microsoft.Practices.Unity.Interception.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.csprojResolveAssemblyReference.cache
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.Dal\obj\Release\Alfanet.Dal.pdb

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ConfigData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataBaseEngine" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConfigData" nillable="true" type="tns:ConfigData" />
+  <xs:complexType name="ArrayOfObjFactura">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjFactura" nillable="true" type="tns:ObjFactura" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjFactura" nillable="true" type="tns:ArrayOfObjFactura" />
+  <xs:complexType name="ObjFactura">
+    <xs:sequence>
+      <xs:element name="anexo" nillable="true" type="xs:string" />
+      <xs:element name="cntc_concepto" nillable="true" type="xs:string" />
+      <xs:element name="comprobanteEgreso" nillable="true" type="xs:string" />
+      <xs:element name="conc_nombre" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaCodDestino" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaNomDestino" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaNombre" nillable="true" type="xs:string" />
+      <xs:element name="detalle" nillable="true" type="xs:string" />
+      <xs:element name="expedienteCodigo" nillable="true" type="xs:string" />
+      <xs:element name="expedienteNombre" nillable="true" type="xs:string" />
+      <xs:element name="facc_almacenamiento" nillable="true" type="xs:string" />
+      <xs:element name="facc_alto_costo" nillable="true" type="xs:string" />
+      <xs:element name="facc_conciliado" nillable="true" type="xs:string" />
+      <xs:element name="facc_documento" nillable="true" type="xs:string" />
+      <xs:element name="facc_estado" nillable="true" type="xs:string" />
+      <xs:element name="facc_factura" nillable="true" type="xs:string" />
+      <xs:element name="facc_prefijo" nillable="true" type="xs:string" />
+      <xs:element name="facf_confirmacion" type="xs:dateTime" />
+      <xs:element name="facf_final" type="xs:dateTime" />
+      <xs:element name="facf_radicado" type="xs:dateTime" />
+      <xs:element name="facn_empresa" nillable="true" type="xs:string" />
+      <xs:element name="facn_factura2" nillable="true" type="xs:string" />
+      <xs:element name="facn_numero" nillable="true" type="xs:string" />
+      <xs:element name="facn_recibo" nillable="true" type="xs:string" />
+      <xs:element name="facn_ubicacion" nillable="true" type="xs:string" />
+      <xs:element name="facv_copago" nillable="true" type="xs:string" />
+      <xs:element name="facv_imputable" nillable="true" type="xs:string" />
+      <xs:element name="facv_responsable" nillable="true" type="xs:string" />
+      <xs:element name="facv_tercero" nillable="true" type="xs:string" />
+      <xs:element name="facv_total" type="xs:double" />
+      <xs:element name="fechaProcedencia" type="xs:dateTime" />
+      <xs:element name="fechaRadicacion" type="xs:dateTime" />
+      <xs:element name="fechaVencimiento" type="xs:dateTime" />
+      <xs:element name="fileName" nillable="true" type="xs:string" />
+      <xs:element name="grupoCodigo" nillable="true" type="xs:string" />
+      <xs:element name="horaRadicacion" type="xs:dateTime" />
+      <xs:element name="imagen" nillable="true" type="xs:string" />
+      <xs:element name="medioCodigo" nillable="true" type="xs:string" />
+      <xs:element name="medioNombre" nillable="true" type="xs:string" />
+      <xs:element name="naturalezaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="naturalezaNombre" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaNUI" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaNombre" nillable="true" type="xs:string" />
+      <xs:element name="radicadoCodigo" nillable="true" type="xs:string" />
+      <xs:element name="serie" nillable="true" type="xs:string" />
+      <xs:element name="terc_nombre" nillable="true" type="xs:string" />
+      <xs:element name="userId" nillable="true" type="xs:string" />
+      <xs:element name="userIdAud" nillable="true" type="xs:string" />
+      <xs:element name="wFMovimientoFecha" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjFactura" nillable="true" type="tns:ObjFactura" />
+  <xs:complexType name="ArrayOfObjParametros">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjParametros" nillable="true" type="tns:ObjParametros" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjParametros" nillable="true" type="tns:ArrayOfObjParametros" />
+  <xs:complexType name="ObjParametros">
+    <xs:sequence>
+      <xs:element name="accion" nillable="true" type="xs:string" />
+      <xs:element name="dependencia_destino" nillable="true" type="xs:string" />
+      <xs:element name="expediente" nillable="true" type="xs:string" />
+      <xs:element name="medio" nillable="true" type="xs:string" />
+      <xs:element name="naturaleza" nillable="true" type="xs:string" />
+      <xs:element name="serie" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjParametros" nillable="true" type="tns:ObjParametros" />
+  <xs:complexType name="ArrayOfObjNaturaleza">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjNaturaleza" nillable="true" type="tns:ObjNaturaleza" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjNaturaleza" nillable="true" type="tns:ArrayOfObjNaturaleza" />
+  <xs:complexType name="ObjNaturaleza">
+    <xs:sequence>
+      <xs:element name="naturalezaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="naturalezaNombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjNaturaleza" nillable="true" type="tns:ObjNaturaleza" />
+  <xs:complexType name="ArrayOfObjDependencia">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjDependencia" nillable="true" type="tns:ObjDependencia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjDependencia" nillable="true" type="tns:ArrayOfObjDependencia" />
+  <xs:complexType name="ObjDependencia">
+    <xs:sequence>
+      <xs:element name="dependenciaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaNombre" nillable="true" type="xs:string" />
+      <xs:element name="userId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjDependencia" nillable="true" type="tns:ObjDependencia" />
+  <xs:complexType name="ArrayOfObjAccion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjAccion" nillable="true" type="tns:ObjAccion" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjAccion" nillable="true" type="tns:ArrayOfObjAccion" />
+  <xs:complexType name="ObjAccion">
+    <xs:sequence>
+      <xs:element name="accionCodigo" nillable="true" type="xs:string" />
+      <xs:element name="accionNombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjAccion" nillable="true" type="tns:ObjAccion" />
+  <xs:complexType name="ArrayOfObjMedio">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjMedio" nillable="true" type="tns:ObjMedio" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjMedio" nillable="true" type="tns:ArrayOfObjMedio" />
+  <xs:complexType name="ObjMedio">
+    <xs:sequence>
+      <xs:element name="medioCodigo" nillable="true" type="xs:string" />
+      <xs:element name="medioNombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjMedio" nillable="true" type="tns:ObjMedio" />
+  <xs:complexType name="ArrayOfObjExpediente">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjExpediente" nillable="true" type="tns:ObjExpediente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjExpediente" nillable="true" type="tns:ArrayOfObjExpediente" />
+  <xs:complexType name="ObjExpediente">
+    <xs:sequence>
+      <xs:element name="expedienteCodigo" nillable="true" type="xs:string" />
+      <xs:element name="expedienteNombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjExpediente" nillable="true" type="tns:ObjExpediente" />
+  <xs:complexType name="ArrayOfObjCiudad">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjCiudad" nillable="true" type="tns:ObjCiudad" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjCiudad" nillable="true" type="tns:ArrayOfObjCiudad" />
+  <xs:complexType name="ObjCiudad">
+    <xs:sequence>
+      <xs:element name="ciudadCodigo" nillable="true" type="xs:string" />
+      <xs:element name="ciudadNombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjCiudad" nillable="true" type="tns:ObjCiudad" />
+  <xs:complexType name="ArrayOfObjProcedencia">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjProcedencia" nillable="true" type="tns:ObjProcedencia" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjProcedencia" nillable="true" type="tns:ArrayOfObjProcedencia" />
+  <xs:complexType name="ObjProcedencia">
+    <xs:sequence>
+      <xs:element name="ciudadNombre" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaDireccion" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaNombre" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjProcedencia" nillable="true" type="tns:ObjProcedencia" />
+</xs:schema>

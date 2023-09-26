@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.DocumentosFisicosService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" />
+  <xs:element name="GetPendingDocuments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q1:ConfigData" />
+        <xs:element minOccurs="0" name="dependenciaCodigo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPendingDocumentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetPendingDocumentsResult" nillable="true" type="q2:ArrayOfObjDocumentos" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocumentAccepted">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q3:ConfigData" />
+        <xs:element minOccurs="0" name="numeroDocumento" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="grupoCodigo" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DocumentAcceptedResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DocumentAcceptedResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceivedDocuments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fechaInicial" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaFinal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dependenciaCodigo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q4:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReceivedDocumentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetReceivedDocumentsResult" nillable="true" type="q5:ArrayOfObjDocumentos" />
+        <xs:element minOccurs="0" name="resultado" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

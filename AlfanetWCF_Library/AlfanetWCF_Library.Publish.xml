@@ -1,0 +1,39 @@
+<publishData>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\wcfsite\">
+    <file relUrl="bin/AlfanetWCF_Library.pdb" publishTime="08/30/2022 12:09:56" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll" publishTime="04/16/2010 14:16:58" />
+    <file relUrl="bin/Alfanet.Bll.pdb" publishTime="08/30/2022 12:09:56" />
+    <file relUrl="bin/log4net.xml" publishTime="07/25/2022 02:40:04" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.pdb" publishTime="04/16/2010 14:11:48" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll" publishTime="04/16/2010 14:16:58" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Common.xml" publishTime="04/16/2010 14:11:48" />
+    <file relUrl="bin/Alfanet.Bll.dll" publishTime="08/30/2022 12:09:56" />
+    <file relUrl="AlfanetWCF_Library.ErrorService.svc" publishTime="08/30/2022 12:09:58" />
+    <file relUrl="bin/FileHelpers.dll" publishTime="03/17/2016 08:25:08" />
+    <file relUrl="AlfanetWCF_Library.VisorImagenesService.svc" publishTime="08/30/2022 12:09:58" />
+    <file relUrl="bin/Microsoft.Practices.EnterpriseLibrary.Caching.dll" publishTime="04/16/2010 14:16:58" />
+    <file relUrl="bin/Alfanet.CommonLibrary.pdb" publishTime="08/23/2022 00:46:15" />
+    <file relUrl="AlfanetWCF_Library.RadicacionMasivaService.svc" publishTime="08/30/2022 12:09:58" />
+    <file relUrl="bin/Alfanet.CommonObject.dll" publishTime="08/23/2022 00:46:15" />
+    <file relUrl="bin/log4net.dll" publishTime="07/25/2022 02:40:06" />
+    <file relUrl="bin/Microsoft.Practices.ServiceLocation.dll" publishTime="04/16/2010 14:16:58" />
+    <file relUrl="bin/Alfanet.Dal.pdb" publishTime="08/30/2022 12:09:55" />
+    <file relUrl="bin/Alfanet.CommonObject.pdb" publishTime="08/23/2022 00:46:15" />
+    <file relUrl="AlfanetWCF_Library.WorkFlowService.svc" publishTime="08/30/2022 12:09:58" />
+    <file relUrl="bin/Microsoft.Practices.Unity.dll" publishTime="03/17/2016 08:25:13" />
+    <file relUrl="bin/Alfanet.ConnectionManager.dll" publishTime="08/30/2022 12:09:55" />
+    <file relUrl="bin/Microsoft.Practices.Unity.Interception.dll" publishTime="03/17/2016 08:25:13" />
+    <file relUrl="bin/Alfanet.ConnectionManager.dll.config" publishTime="02/18/2013 17:11:48" />
+    <file relUrl="bin/Microsoft.Practices.Unity.pdb" publishTime="03/17/2016 08:25:13" />
+    <file relUrl="bin/Alfanet.Dal.dll" publishTime="08/30/2022 12:09:55" />
+    <file relUrl="bin/AlfanetWCF_Library.dll.config" publishTime="08/30/2022 12:07:34" />
+    <file relUrl="bin/Microsoft.Practices.Unity.Interception.pdb" publishTime="03/17/2016 08:25:13" />
+    <file relUrl="AlfanetWCF_Library.AdminService.svc" publishTime="08/30/2022 12:09:58" />
+    <file relUrl="bin/Alfanet.CommonLibrary.dll" publishTime="08/23/2022 00:46:15" />
+    <file relUrl="bin/AlfanetWCF_Library.dll" publishTime="08/30/2022 12:09:56" />
+    <file relUrl="Web.config" publishTime="08/30/2022 12:07:34" />
+    <file relUrl="AlfanetWCF_Library.DocumentosFisicosService.svc" publishTime="08/30/2022 12:09:58" />
+    <file relUrl="bin/Alfanet.ConnectionManager.pdb" publishTime="08/30/2022 12:09:55" />
+  </publishTarget>
+  <publishTarget publishUrl="C:\inetpub\wwwroot\wcfsite\Service References\" />
+</publishData>

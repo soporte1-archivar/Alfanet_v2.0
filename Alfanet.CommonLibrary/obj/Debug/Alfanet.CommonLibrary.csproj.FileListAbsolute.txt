@@ -1,0 +1,266 @@
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapterV5.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+C:\Users\Desarrollo\Desktop\desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapterV5.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapterV5.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csprojResolveAssemblyReference.cache
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapter.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.HostAdapterV5.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.DesignTime.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cryptography.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.EnvironmentalOverrides.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.PolicyInjection.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Validation.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Logging.Database.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.Unity.Configuration.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csprojResolveAssemblyReference.cache
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\FileHelpers.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csprojAssemblyReference.cache
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CoreCompileInputs.cache
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CopyComplete
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\FileHelpers.dll
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.AssemblyReference.cache
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CopyComplete
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+C:\Users\sopor\Downloads\Alfanet_v2.0 (1)\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\FileHelpers.dll
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csprojAssemblyReference.cache
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CoreCompileInputs.cache
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CopyComplete
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+D:\01 APPAlfanet\01. Aplicacion\MUTUALSER\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\FileHelpers.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csprojAssemblyReference.cache
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CoreCompileInputs.cache
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CopyComplete
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet2\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonLibrary.pdb
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\FileHelpers.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Alfanet.CommonObject.pdb
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csprojAssemblyReference.cache
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CoreCompileInputs.cache
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.csproj.CopyComplete
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.dll
+D:\01 APPAlfanet\01. Aplicacion\Alfanet\Alfanet_v2.0\Alfanet.CommonLibrary\obj\Debug\Alfanet.CommonLibrary.pdb

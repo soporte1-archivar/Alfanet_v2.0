@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<DatabaseEngine>
+		<!--value=1 es sql server, value=2, es oracle.-->
+		<Value>1</Value>
+	</DatabaseEngine>
+</config>

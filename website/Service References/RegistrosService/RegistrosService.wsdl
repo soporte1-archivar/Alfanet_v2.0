@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="RegistrosService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:57962/Alfanet.WCFServiceSite/RegistrosWS.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:57962/Alfanet.WCFServiceSite/RegistrosWS.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:57962/Alfanet.WCFServiceSite/RegistrosWS.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRegistros_SaveRegistro_InputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRegistro" />
+  </wsdl:message>
+  <wsdl:message name="IRegistros_SaveRegistro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SaveRegistroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRegistros_UpdateRegistro_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRegistro" />
+  </wsdl:message>
+  <wsdl:message name="IRegistros_UpdateRegistro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRegistroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRegistros_DeleteRegistro_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistro" />
+  </wsdl:message>
+  <wsdl:message name="IRegistros_DeleteRegistro_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRegistroResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRegistros_GetConfigurationInformation_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConfigurationInformation" />
+  </wsdl:message>
+  <wsdl:message name="IRegistros_GetConfigurationInformation_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConfigurationInformationResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRegistros">
+    <wsdl:operation name="SaveRegistro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRegistros/SaveRegistro" message="tns:IRegistros_SaveRegistro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRegistros/SaveRegistroResponse" message="tns:IRegistros_SaveRegistro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRegistro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRegistros/UpdateRegistro" message="tns:IRegistros_UpdateRegistro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRegistros/UpdateRegistroResponse" message="tns:IRegistros_UpdateRegistro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistro">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRegistros/DeleteRegistro" message="tns:IRegistros_DeleteRegistro_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRegistros/DeleteRegistroResponse" message="tns:IRegistros_DeleteRegistro_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurationInformation">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRegistros/GetConfigurationInformation" message="tns:IRegistros_GetConfigurationInformation_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRegistros/GetConfigurationInformationResponse" message="tns:IRegistros_GetConfigurationInformation_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRegistros" type="tns:IRegistros">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SaveRegistro">
+      <soap:operation soapAction="http://tempuri.org/IRegistros/SaveRegistro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRegistro">
+      <soap:operation soapAction="http://tempuri.org/IRegistros/UpdateRegistro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRegistro">
+      <soap:operation soapAction="http://tempuri.org/IRegistros/DeleteRegistro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigurationInformation">
+      <soap:operation soapAction="http://tempuri.org/IRegistros/GetConfigurationInformation" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RegistrosService">
+    <wsdl:port name="BasicHttpBinding_IRegistros" binding="tns:BasicHttpBinding_IRegistros">
+      <soap:address location="http://localhost:57962/Alfanet.WCFServiceSite/RegistrosWS.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

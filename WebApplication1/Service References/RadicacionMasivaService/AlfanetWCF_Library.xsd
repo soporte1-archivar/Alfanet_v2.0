@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.RadicacionMasivaService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" />
+  <xs:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.RadicacionMasivaService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="GetPreview">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dependenciaEnvio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="naturaleza" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="medio" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CodDep" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q1:ConfigData" />
+        <xs:element minOccurs="0" name="file" nillable="true" type="xs:base64Binary" />
+        <xs:element minOccurs="0" name="fileName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPreviewResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetPreviewResult" nillable="true" type="q2:ArrayOfObjFactura" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="result" nillable="true" type="q3:ArrayOfstring" />
+        <xs:element minOccurs="0" name="objCacheName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="summary" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="CamposVacios" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DuplicadosDB" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="DuplicadosExcel" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetParametrosIniciales">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="grupoCodigo" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q4:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetParametrosInicialesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetParametrosInicialesResult" nillable="true" type="q5:ArrayOfObjParametros" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNaturalezas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q6:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNaturalezasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetNaturalezasResult" nillable="true" type="q7:ArrayOfObjNaturaleza" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDependencias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q8:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDependenciasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetDependenciasResult" nillable="true" type="q9:ArrayOfObjDependencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAcciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q10:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAccionesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetAccionesResult" nillable="true" type="q11:ArrayOfObjAccion" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMedios">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q12:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMediosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetMediosResult" nillable="true" type="q13:ArrayOfObjMedio" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExpedientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q14:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExpedientesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetExpedientesResult" nillable="true" type="q15:ArrayOfObjExpediente" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RadicarFacturas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nomDep" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Dependencia" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ObjCacheName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="tempImagesPath" nillable="true" type="xs:string" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q16:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RadicarFacturasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="RadicarFacturasResult" nillable="true" type="q17:ArrayOfObjFactura" />
+        <xs:element minOccurs="0" name="result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarRadicados">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Radicador" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="porImagen" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="radInicial" type="xs:long" />
+        <xs:element minOccurs="0" name="radFinal" type="xs:long" />
+        <xs:element minOccurs="0" name="comEgresoIni" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="comEgresoFin" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaInicial" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaFinal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FacnReciboIni" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FacnReciboFin" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="facValorMenor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="facValorMayor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="numFacIni" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="numFacFinal" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="nombreNit" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="detalle" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ubicacion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="modalidad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="unidad" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="expediente" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ciudadInicial" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ciudadFinal" nillable="true" type="xs:string" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q18:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="BuscarRadicadosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="BuscarRadicadosResult" nillable="true" type="q19:ArrayOfObjFactura" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosDependencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Dependencia" nillable="true" type="xs:string" />
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q20:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ObtenerDatosDependenciaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UserIdAlfa" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NombreDependencia" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateFiles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="path" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cacheName" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidateFilesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="ValidateFilesResult" nillable="true" type="q21:ArrayOfstring" />
+        <xs:element minOccurs="0" name="result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearTempImages">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="path" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ClearTempImagesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ClearTempImagesResult" type="xs:boolean" />
+        <xs:element minOccurs="0" name="result" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidarUsuarioPermitido">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Dependencia" nillable="true" type="xs:string" />
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q22:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ValidarUsuarioPermitidoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ValidarUsuarioPermitidoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRadicado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codigo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="detalle" nillable="true" type="xs:string" />
+        <xs:element xmlns:q23="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="compEgresoList" nillable="true" type="q23:ArrayOfstring" />
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q24:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRadicadoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateRadicadoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFromCache">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LoadFromCacheResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="LoadFromCacheResult" nillable="true" type="q25:ArrayOfObjFactura" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCiudades">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q26:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCiudadesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetCiudadesResult" nillable="true" type="q27:ArrayOfObjCiudad" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProcedencias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q28:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProcedenciasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetProcedenciasResult" nillable="true" type="q29:ArrayOfObjProcedencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResultadosBusqueda">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetResultadosBusquedaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetResultadosBusquedaResult" nillable="true" type="q30:ArrayOfObjFactura" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

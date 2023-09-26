@@ -1,0 +1,140 @@
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\WebApplication1.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonLibrary.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonObject.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonLibrary.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonObject.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csproj.ResolveComReference.cache
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.pdb
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\AjaxControlToolkit.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\HtmlAgilityPack.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Infragistics2.Web.v8.1.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\itextsharp.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Neodynamic.WebControls.ImageDraw.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\SanitizerProviders.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\Desarrollo\Desktop\Desarrollos\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\WebApplication1.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\AjaxControlToolkit.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonLibrary.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonObject.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\HtmlAgilityPack.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\SanitizerProviders.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.Interception.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonLibrary.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonObject.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.Interception.pdb
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ar\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\cs\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\de\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\es\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\fr\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\he\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\hi\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\it\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ja\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ko\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\nl\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\pt\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\ru\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\tr-TR\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\zh-CHS\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\bin\zh-CHT\AjaxControlToolkit.resources.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csproj.ResolveComReference.cache
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.dll
+C:\Users\ArchivarLtda\Desktop\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csprojResolveAssemblyReference.cache
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.pdb
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csprojResolveAssemblyReference.cache
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.dll
+C:\John\Clientes\Mutual Ser\Desarrollos Harold2\AlfaNet_V2.0\Dev\v1.0\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\WebApplication1.dll.config
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\WebApplication1.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\WebApplication1.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\AjaxControlToolkit.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonLibrary.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonObject.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\HtmlAgilityPack.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\SanitizerProviders.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\FileHelpers.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\EnvDTE.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.ServiceLocation.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.Interception.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\stdole.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonLibrary.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Alfanet.CommonObject.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\Microsoft.Practices.Unity.Interception.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\ar\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\cs\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\de\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\es\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\fr\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\he\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\hi\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\it\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\ja\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\ko\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\nl\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\pt\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\ru\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\tr-TR\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\zh-CHS\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\zh-CHT\AjaxControlToolkit.resources.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csprojAssemblyReference.cache
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csproj.ResolveComReference.cache
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csproj.CoreCompileInputs.cache
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\obj\Release\Alfanet.csproj.CopyComplete
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\obj\Release\WebApplication1.pdb
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\log4net.dll
+D:\archivar ltda\rmasiva\Alfanet_v2.0\WebApplication1\bin\log4net.xml

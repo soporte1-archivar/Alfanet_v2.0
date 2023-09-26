@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ConfigData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DataBaseEngine" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ConfigData" nillable="true" type="tns:ConfigData" />
+  <xs:complexType name="ArrayOfObjDocumentos">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ObjDocumentos" nillable="true" type="tns:ObjDocumentos" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfObjDocumentos" nillable="true" type="tns:ArrayOfObjDocumentos" />
+  <xs:complexType name="ObjDocumentos">
+    <xs:sequence>
+      <xs:element name="anexo" nillable="true" type="xs:string" />
+      <xs:element name="codDestino" nillable="true" type="xs:string" />
+      <xs:element name="codInfraccion" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaDestino" nillable="true" type="xs:string" />
+      <xs:element name="dependenciaNombre" nillable="true" type="xs:string" />
+      <xs:element name="direccion" nillable="true" type="xs:string" />
+      <xs:element name="expedienteCodigo" nillable="true" type="xs:string" />
+      <xs:element name="expedienteNombre" nillable="true" type="xs:string" />
+      <xs:element name="fechaImposicion" nillable="true" type="xs:string" />
+      <xs:element name="fechaProcedencia" nillable="true" type="xs:string" />
+      <xs:element name="fechaRadicacion" nillable="true" type="xs:string" />
+      <xs:element name="fechaVencimiento" nillable="true" type="xs:string" />
+      <xs:element name="fileName" nillable="true" type="xs:string" />
+      <xs:element name="grupoCodigo" nillable="true" type="xs:string" />
+      <xs:element name="grupoNombre" nillable="true" type="xs:string" />
+      <xs:element name="imagen" nillable="true" type="xs:string" />
+      <xs:element name="iuit" nillable="true" type="xs:string" />
+      <xs:element name="leido" nillable="true" type="xs:string" />
+      <xs:element name="medioCodigo" nillable="true" type="xs:string" />
+      <xs:element name="medioNombre" nillable="true" type="xs:string" />
+      <xs:element name="modalidad" nillable="true" type="xs:string" />
+      <xs:element name="naturalezaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="naturalezaNombre" nillable="true" type="xs:string" />
+      <xs:element name="numeroDocumento" nillable="true" type="xs:string" />
+      <xs:element name="numeroExterno" nillable="true" type="xs:string" />
+      <xs:element name="observaciones" nillable="true" type="xs:string" />
+      <xs:element name="placaVehiculo" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaCodigo" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaNUI" nillable="true" type="xs:string" />
+      <xs:element name="procedenciaNombre" nillable="true" type="xs:string" />
+      <xs:element name="radicadoDetalle" nillable="true" type="xs:string" />
+      <xs:element name="radicadoFuente" nillable="true" type="xs:string" />
+      <xs:element name="radicadoGuia" nillable="true" type="xs:string" />
+      <xs:element name="radicadoPadre" nillable="true" type="xs:string" />
+      <xs:element name="registroTipo" nillable="true" type="xs:string" />
+      <xs:element name="respuesta" nillable="true" type="xs:string" />
+      <xs:element name="serieCodigo" nillable="true" type="xs:string" />
+      <xs:element name="tipoDocumento" nillable="true" type="xs:string" />
+      <xs:element name="tipoNotificacion" nillable="true" type="xs:string" />
+      <xs:element name="wFAccionNombre" nillable="true" type="xs:string" />
+      <xs:element name="wFMovimientoNotas" nillable="true" type="xs:string" />
+      <xs:element name="wfmovimientoFecha" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ObjDocumentos" nillable="true" type="tns:ObjDocumentos" />
+</xs:schema>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.WorkFlowService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" />
+  <xs:element name="GetWorkFlowDocuments">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q1:ConfigData" />
+        <xs:element minOccurs="0" name="CodigoDependencia" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetWorkFlowDocumentsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetWorkFlowDocumentsResult" nillable="true" type="q2:ObjWorkFlowDocuments" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDependencias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q3:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDependenciasResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetDependenciasResult" nillable="true" type="q4:ArrayOfObjDependencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAcciones">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q5:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAccionesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetAccionesResult" nillable="true" type="q6:ArrayOfObjAccion" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RedirectDocument">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="document" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dependenciaDestino" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="note" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dependenciaOrigen" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="accion" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q7:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RedirectDocumentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RedirectDocumentResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

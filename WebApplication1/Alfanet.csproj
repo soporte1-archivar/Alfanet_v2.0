@@ -1,0 +1,1906 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E8B600C9-915E-4700-82E2-99278F71D3CA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <UseIISExpress>false</UseIISExpress>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\WebApplication1.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\WebApplication1.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;c:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60919\lib\40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60919\lib\40\SanitizerProviders\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Web.v8.1">
+      <HintPath>..\..\..\..\..\..\Infragistics2.Web.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\..\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.15\lib\net40\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\website\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\website\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Neodynamic.WebControls.ImageDraw">
+      <HintPath>..\..\..\..\..\..\Neodynamic.WebControls.ImageDraw.dll</HintPath>
+    </Reference>
+    <Reference Include="SanitizerProviders">
+      <HintPath>..\packages\AjaxControlToolkit.4.1.60919\lib\40\SanitizerProviders\SanitizerProviders.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administracion\Admin.aspx" />
+    <Content Include="Administracion\css\tab.css" />
+    <Content Include="Administracion\images\editar.jpg" />
+    <Content Include="Administracion\MaestroCiudades.aspx" />
+    <Content Include="Administracion\script\jquery-1.8.2.min.js" />
+    <Content Include="Administracion\script\tabs.js" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\adjunto2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\alfanet logo transparente.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\alfanetNoImagen.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\gen_img.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\icoMinisterioTic.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_Blanco.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_doc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_pdf.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_ppt.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_rar.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_tif.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_txt.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_txt1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_xls.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\icono_zip.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\iconos\RICARDO.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\icono_Blanco.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_calendar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_calendarview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_combo.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_datechooser.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_dayview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_dialogwindow.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_grid.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_grid_opt.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_imageViewer.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_listbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_menu.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_monthview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_navbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_panel.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_shared.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_spellCheckerDialog.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_splitter.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_tab.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_textedit.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_toolbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_tree.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\ig_weekview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\add_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\add_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\add_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\add_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\buttonBG.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\button_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\button_officeBlue.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\button_officeBlue.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\button_silver.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\Caption_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\dayheader.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\day_header.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\day_header1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\day_header_active.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\del_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\del_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\del_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\del_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\downarrows_white.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\end_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\end_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\end_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\end_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ff_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ff_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ff_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ff_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\groupbyHeader.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\header.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\header_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BodyCornerBottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BodyCornerBottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BodyCornerTopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BodyCornerTopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BodyEdgeBottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BodyEdgeTop.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_Bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_BottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_Close.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_CloseHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_CloseMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_EdgeLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_EdgeRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_HeaderContent.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_HeaderCornerLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_HeaderCornerRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_Maximize.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_MaximizeHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_MaximizeMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_Minimize.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_MinimizeHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_MinimizeMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_Pin.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_PinHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_PinMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_ResizingHandle.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_Restore.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_RestoreHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_RestoreMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_top.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_topHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_TopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_TopLeftHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_TopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_TopRightHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_Unpin.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_UnpinHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igdw_UnpinMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igg_header.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igg_Selected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igg_sortAsc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igg_sortDesc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerBottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerBottomLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerBottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerBottomRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerTopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerTopLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerTopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_CornerTopRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeBottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeBottom_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeTop.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_EdgeTop_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_NextButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_NextButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_NextButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_NextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_PrevButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_PrevButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_PrevButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_H_PrevButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_NextButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_NextButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_NextButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_NextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_PNextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_PrevButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_PrevButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_PrevButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igiv_V_PrevButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igpnl_dwn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igpnl_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igsch_xpbluedn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igsch_xpblueup.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseDownHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseLeftHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseRightHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_CollapseUpHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandDownHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandLeftHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandRightHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_ExpandUpHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_splitHoriz.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_splitHorizHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_splitHorizPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_splitVerPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_splitVert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_splitVertHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igspl_splitVertPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igwt_tab_hover.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igwt_tab_normal.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\igwt_tab_selected.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_cal_next.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_cal_prev.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_cmboDown1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_cmboDown2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_cmboDownXP1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_cmboDownXP2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_edit_0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_edit_01.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_edit_1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_edit_11.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_edit_2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_edit_21.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_menutri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_menu_scrolldown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_menu_scrolldown_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_menu_scrollup.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_menu_scrollup_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_progressIndicator.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_sched_next.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_sched_prev.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_sched_recurrence.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_sched_reminder.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_sched_variance.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_BottomHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_BottomNormal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_BottomSelected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scroll0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scroll1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scroll2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scroll3.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scrollXP0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scrollXP1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scrollXP2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_scrollXP3.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_TopHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_TopNormal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tab_TopSelected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblBlank.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilter.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterApplied.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterContains.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterDoesNotContain.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterDoesNotEndWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterDoesNotMatch.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterDoesNotMatch2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterDoesNotStartWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterEndsWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterEqual.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterGreaterThan.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterGreaterThanOrEqualTo.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterLessThan.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterLessThanOrEqualTo.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterLike.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterMatch.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterMatch2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterNotEqual.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterNotLike.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFilterStartsWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFixedOff.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblFixedOn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblGroupBy.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblNewrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblPimgDn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblPimgUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblPlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblSortAsc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblSortDesc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_tblTri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeBlack_box.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeDownArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeF.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeFminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeFplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeI.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeL.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeLminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeLplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeMinus2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeMminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeMplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeMsdn_minus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeMsdn_plus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeOminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeOplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treePlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treePlus2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeRightArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeS.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeT.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeTri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeUpArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeWhite.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeXPMinus.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ig_treeXPPlus.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\ItemBackground.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\next_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\next_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\next_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\next_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\officeBlue.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\office_grid_header.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\page_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\prev_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\prev_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\prev_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\prev_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\rew_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\rew_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\rew_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\rew_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\start_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\start_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\start_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\start_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\submit_disable.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\submit_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\submit_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\submit_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\submit_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabBG.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabbottom_hover.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabbottom_hover_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabbottom_normal.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabbottom_normal_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabbottom_selected.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabbottom_selected_f.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabtob_selected_f.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabtop_hover_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tabtop_normal_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_bottom_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_bottom_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_left.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_left_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_left_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_left_hover_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_left_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_left_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_right.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_right_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_right_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_right_hover_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_right_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_right_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_top.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_top_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\tab_top_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Default\images\uparrows_white.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_calendar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_calendarview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_combo.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_datechooser.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_dayview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_dialogwindow.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_grid.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_grid_opt.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_imageViewer.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_listbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_menu.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_monthview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_navbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_panel.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_shared.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_spellCheckerDialog.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_splitter.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_tab.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_textedit.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_toolbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_tree.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_webdatatree.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\ig_weekview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\activingBG.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\add_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\add_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\add_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\add_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\altBG.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\background.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\banner.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\bg_top.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\blank.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\buttonBG.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\button_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\button_bg.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\day_header.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\del_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\del_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\del_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\del_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\downarrows_white.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\end_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\end_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\end_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\end_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\fadetop1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\fadetop2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ff_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ff_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ff_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ff_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\gradient.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\header.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\header11.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\header12.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\header13.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\headerHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\headerHover1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\header_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\header_silver.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_Bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_bottomCorners.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_BottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_BottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_Close.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_CloseHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_CloseMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_EdgeLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_EdgeRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_leftRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_Maximize.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_MaximizeHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_MaximizeMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_Minimize.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_MinimizeHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_MinimizeMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_Pin.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_PinHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_PinMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_ResizingHandle.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_Restore.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_RestoreAlt.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_RestoreHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_RestoreMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_top.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_topBottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_topCorners.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_topHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_TopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_TopLeftHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_TopLeftHiden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_TopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_TopRightHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_Unpin.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_UnpinHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igdw_UnpinMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igg_bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igg_header.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igg_Selected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igg_sortAsc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igg_sortDesc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerBottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerBottomLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerBottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerBottomRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerTopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerTopLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerTopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_CornerTopRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeBottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeBottom_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeTop.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_EdgeTop_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_FooterContentAreagif.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_HeaderContentArea.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_NextButton.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_NextButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_NextButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_NextButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_NextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_PrevButton.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_PrevButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_PrevButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_PrevButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_H_PrevButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_NextButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_NextButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_NextButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_NextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_PrevButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_PrevButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_PrevButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igiv_V_PrevButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igpnl_dwn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igpnl_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igsch_xpbluedn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igsch_xpblueup.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseDownHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseLeftHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseRightHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_CollapseUpHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandDownHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandLeftHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandRightHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_ExpandUpHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_splitHoriz.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_splitHorizHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_splitHorizPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_splitVerPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_splitVert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_splitVertHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igspl_splitVertHover1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Blank.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Empty.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_First.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_FirstMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_FirstPlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_folder.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_folder_open.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Last.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_LastMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_LastPlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Line.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Middle.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_MiddleMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_MiddlePlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Minus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Minusold.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Plus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Plusold.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\igtr_Single.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cal_next.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cal_prev.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cmboDown1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cmboDown1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cmboDown2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cmboDownXP1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cmboDownXP1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_cmboDownXP2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_edit_0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_edit_01.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_edit_1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_edit_11.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_edit_2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_edit_21.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_menutri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_menu_scrolldown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_menu_scrolldown_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_menu_scrollup.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_menu_scrollup_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_progressIndicator.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_sched_next.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_sched_prev.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_sched_recurrence.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_sched_reminder.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_sched_variance.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_BottomHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_BottomNormal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_BottomSelected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scroll0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scroll1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scroll2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scroll3.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scrollXP0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scrollXP1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scrollXP2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_scrollXP3.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_TopHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_TopNormal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tab_TopSelected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblBlank.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilter.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterApplied.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterContains.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterDoesNotContain.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterDoesNotEndWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterDoesNotMatch.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterDoesNotMatch2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterDoesNotStartWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterEndsWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterEqual.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterGreaterThan.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterGreaterThanOrEqualTo.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterLessThan.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterLessThanOrEqualTo.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterLike.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterMatch.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterMatch2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterNotEqual.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterNotLike.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFilterStartsWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFixedOff.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblFixedOn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblGroupBy.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblNewrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblPimgDn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblPimgUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblPlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblSortAsc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblSortDesc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_tblTri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeBlack_box.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeDownArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeF.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeFaq_leaf.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeFminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeFplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeI.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeL.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeLminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeLplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeMinus2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeMminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeMplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeMsdn_minus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeMsdn_plus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeOminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeOplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treePlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treePlus2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeright.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeRightArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeS.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeT.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeTri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeUpArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeWhite.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeXPMinus.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ig_treeXPPlus.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\ItemBackground.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\itemBG.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\label.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\next_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\next_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\next_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\next_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\normalGreen3.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\normalGreen4.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\orangeButton1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\pageButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\page_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\prev_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\prev_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\prev_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\prev_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\rew_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\rew_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\rew_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\rew_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\start_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\start_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\start_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\start_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\submit_disable.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\submit_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\submit_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\submit_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\submit_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_bottom_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_bottom_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_bottom_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_left.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_left_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_left_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_left_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_right.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_right_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_right_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_right_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_top.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_top_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_top_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\tab_top_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ig_res\Nautilus\images\uparrows_white.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\imagen.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\imagen1.TIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\imagen2.tif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\JQPAnel\bg-menu-main.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\JQPAnel\collapse_blue.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\JQPAnel\expand_blue.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\JQPAnel\menu-bg.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\logo alfanet.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\logo alfanet_exclude.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Logo Empresa.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\logo.PNG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\logoalfanetnoimagen.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\LogoEmpresa.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\LogoEmpresaal50.PNG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\logo_exclude.PNG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\After_BackGround.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\BackGround.PNG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\bg-menu-main.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\bg-snippet-dim.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\boton rolover boton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\button_bg.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\collapse_blue.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Copia de Before_BackGround.PNG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\expand_blue.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\fondo boton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\go2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Gradient1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\ig_menuTri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\ig_menu_scrolldown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\ig_menu_scrolldown_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\ig_menu_scrollup.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\ig_menu_scrollup_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Label_bg.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\LightBlue.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\menu-bg.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Propuesta3.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\replyBig.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\25229_355588967082_355583882082_3824607_4100301_n.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_01.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_01.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_02.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_02.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_03.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_03.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_04.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_04.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_05.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_06.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_06.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_07.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_07.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_08.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_08.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_09.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\tablita_09.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\VerPostit.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\tab_bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\tab_bottom_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Acceso\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Acceso\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Acceso\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Acceso\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Acceso\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Acceso\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Acceso\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Administracion\P20.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Administracion\P21.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Administracion\P22.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Administracion\P23.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Administracion\P24.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Administracion\P25.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Atras.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Avanzar.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\BordeMenu.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P26.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P27.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P28.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P29.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P30.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P31.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P32.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P33.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P34.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P35.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P36.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P37.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P38.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P39.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P40.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P41.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Consultas\P42.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P10.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P11.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P12.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P13.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P14.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P15.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P16.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P17.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P18.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P19.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P20.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P21.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P22.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P23.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P24.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P25.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P26.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P8.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Enviados\P9.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P10.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P11.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P12.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P13.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P14.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P15.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P16.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P17.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P18.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P19.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P20.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P21.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P22.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P23.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P24.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P25.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P26.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P27.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P28.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P29.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P30.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P31.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P32.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P33.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P34.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P35.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P36.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P37.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P38.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P39.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P40.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P41.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P42.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P44.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P45.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P8.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Documentos Recibidos\P9.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\ENCABEZADO.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\flecha regresar.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\General Modulos\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\General Modulos\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\General Modulos\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\General Modulos\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\General Modulos\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\General Modulos\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\General Modulos\P8.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P8.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\GestionTareas\P9.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\home.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Inicio\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Inicio\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Inicio\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Inicio\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Inicio\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Inicio\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Inicio\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P10.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P8.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Prestamos\P9.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Reportes\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Reportes\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Reportes\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Retroceder.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P1.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P10.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P11.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P12.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P13.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P14.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P15.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P16.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P17.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P18.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P19.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P2.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P3.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P4.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P5.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P6.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P7.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P8.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\Manual\Work Flow\P9.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\495mini.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Accept.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\AcceptBig.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Accion.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\action_print.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Add.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\alarmaamarilla.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\alarmaroja.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\alarmaverde.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\archivador.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\archivadorbig.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\bag_green.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\box_48.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\BtnCrearCuenta.PNG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\BtnOutlook.bmp" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\btnOutlook.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\buscarnew.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\buscarnew2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\calendario.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\calendario.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Cancel.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\chat.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\cross.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Delete.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\desktop1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\dia_100mini.PNG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\documentos.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Documentos.ico" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\DocuvationScannerLogo.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Edit.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\error.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Escritorio.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\file.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\flechadanima.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\flechaianima.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Iconos\ActualizarRadicado.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Iconos\cerrar.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Iconos\imagenes.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Iconos\NewRadicado.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Iconos\Radicado.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Iconos\Radicar.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Iconos\sticker.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_enviada.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_excel.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_otro.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_pdf.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_powerpoint.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_recibida.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_txt.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_word.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\icono_zip.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\imagen_aviso.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\images.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\key.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Load.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\lock.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\lock_edit.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\mail_forward.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\multitarea.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\next.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\People.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\post-it.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\prev.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Read.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\reply.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\replyBig.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\rotarder.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\rotarizq.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\Select.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\SendMailPeople.JPG" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\sendReceive.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\tbBuscar.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\tbNuevo.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\text_detalle.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\user.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\user_comment.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\user_edit.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\VerPostit.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\VerPostit.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\view16.ico" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\wfcopias.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\zoom.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\zoommas.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\zoommenos.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\zoom_in.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\ToolBar\zoom_out.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_calendar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_calendarview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_combo.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_datechooser.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_dayview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_dialogwindow.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_grid.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_grid_opt.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_imageViewer.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_listbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_menu.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_monthview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_navbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_panel.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_shared.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_spellCheckerDialog.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_splitter.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_tab.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_textedit.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_toolbar.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_tree.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\ig_weekview.css" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\add_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\add_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\add_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\add_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\buttonBG.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\button_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\button_officeBlue.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\button_officeBlue.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\button_silver.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\Caption_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\dayheader.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\day_header.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\day_header1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\day_header_active.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\del_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\del_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\del_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\del_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\downarrows_white.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\end_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\end_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\end_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\end_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ff_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ff_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ff_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ff_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\groupbyHeader.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\header.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\header_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BodyCornerBottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BodyCornerBottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BodyCornerTopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BodyCornerTopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BodyEdgeBottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BodyEdgeTop.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_Bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_BottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_Close.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_CloseHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_CloseMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_EdgeLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_EdgeRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_HeaderContent.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_HeaderCornerLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_HeaderCornerRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_Maximize.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_MaximizeHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_MaximizeMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_Minimize.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_MinimizeHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_MinimizeMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_Pin.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_PinHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_PinMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_ResizingHandle.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_Restore.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_RestoreHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_RestoreMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_top.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_topHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_TopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_TopLeftHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_TopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_TopRightHidden.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_Unpin.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_UnpinHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igdw_UnpinMouseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igg_header.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igg_Selected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igg_sortAsc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igg_sortDesc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerBottomLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerBottomLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerBottomRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerBottomRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerTopLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerTopLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerTopRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_CornerTopRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeBottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeBottom_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeLeft_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeRight_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeTop.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_EdgeTop_Vert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_NextButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_NextButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_NextButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_NextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_PrevButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_PrevButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_PrevButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_H_PrevButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_NextButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_NextButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_NextButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_NextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_PNextButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_PrevButton.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_PrevButtonDisabled.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_PrevButtonHover.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igiv_V_PrevButtonPressed.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igpnl_dwn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igpnl_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igsch_xpbluedn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igsch_xpblueup.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseDownHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseLeftHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseRightHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_CollapseUpHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandDown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandDownHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandLeft.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandLeftHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandRight.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandRightHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_ExpandUpHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_splitHoriz.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_splitHorizHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_splitHorizPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_splitVerPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_splitVert.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_splitVertHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igspl_splitVertPressed.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igwt_tab_hover.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igwt_tab_normal.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\igwt_tab_selected.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_cal_next.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_cal_prev.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_cmboDown1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_cmboDown2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_cmboDownXP1.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_cmboDownXP2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_edit_0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_edit_01.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_edit_1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_edit_11.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_edit_2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_edit_21.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_menutri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_menu_scrolldown.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_menu_scrolldown_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_menu_scrollup.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_menu_scrollup_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_progressIndicator.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_sched_next.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_sched_prev.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_sched_recurrence.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_sched_reminder.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_sched_variance.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_BottomHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_BottomNormal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_BottomSelected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scroll0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scroll1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scroll2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scroll3.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scrollXP0.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scrollXP1.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scrollXP2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_scrollXP3.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_TopHover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_TopNormal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tab_TopSelected.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblBlank.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilter.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterApplied.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterContains.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterDoesNotContain.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterDoesNotEndWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterDoesNotMatch.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterDoesNotMatch2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterDoesNotStartWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterEndsWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterEqual.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterGreaterThan.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterGreaterThanOrEqualTo.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterLessThan.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterLessThanOrEqualTo.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterLike.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterMatch.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterMatch2.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterNotEqual.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterNotLike.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFilterStartsWith.png" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFixedOff.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblFixedOn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblGroupBy.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblNewrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblPimgDn.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblPimgUp.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblPlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblSortAsc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblSortDesc.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_tblTri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeBlack_box.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeDownArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeF.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeFminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeFplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeI.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeL.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeLminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeLplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeMinus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeMinus2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeMminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeMplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeMsdn_minus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeMsdn_plus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeOminus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeOplus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treePlus.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treePlus2.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeRightArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeS.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeT.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeTri.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeUpArrow.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeWhite.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeXPMinus.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ig_treeXPPlus.GIF" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\ItemBackground.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\next_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\next_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\next_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\next_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\officeBlue.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\office_grid_header.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\page_bg.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\prev_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\prev_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\prev_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\prev_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\rew_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\rew_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\rew_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\rew_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\start_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\start_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\start_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\start_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\submit_disable.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\submit_disabled.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\submit_down.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\submit_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\submit_up.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabBG.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabbottom_hover.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabbottom_hover_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabbottom_normal.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabbottom_normal_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabbottom_selected.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabbottom_selected_f.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabtob_selected_f.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabtop_hover_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tabtop_normal_F.jpg" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_bottom.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_bottom_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_bottom_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_left.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_left_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_left_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_left_hover_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_left_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_left_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_right.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_right_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_right_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_right_hover_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_right_normal.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_right_normal_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_top.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_top_f.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\tab_top_hover.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Imagenes\VisorImagenes\ig_res\Default\images\uparrows_white.gif" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Script\Visor.js" />
+    <Content Include="AlfanetImagenes\VisorImagenes\Visor.aspx" />
+    <Content Include="config\config.xml" />
+    <Content Include="packages.config" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjAccion.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjCiudad.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjDependencia.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjDocumentos.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjExpediente.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjFactura.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjMedio.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjNaturaleza.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjParametros.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjProcedencia.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjRadicacionMasiva.datasource" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjWorkFlowDocuments.datasource" />
+    <None Include="Properties\PublishProfiles\Profile1.pubxml" />
+    <Content Include="RadicacionMasiva\Handler.ashx" />
+    <None Include="RadicacionMasiva\temp_pdf\DeclaracionJuramentadaSubsidio.pdf" />
+    <None Include="RadicacionRegistroMasivo\temp_pdf\DeclaracionJuramentadaSubsidio.pdf" />
+    <None Include="RadicacionRegistroMasivo\UpTemplates\Radicado.xlsx" />
+    <None Include="RadicacionRegistroMasivo\UpTemplates\Registro.xlsx" />
+    <None Include="Service References\AdminService\AdminService1.wsdl" />
+    <None Include="Service References\AdminService\AlfanetWCF_Library.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdminService\AlfanetWCF_Library1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\AdminService\AlfanetWCF_Library2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DocumentosFisicosService\AlfanetWCF_Library.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DocumentosFisicosService\AlfanetWCF_Library1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DocumentosFisicosService\AlfanetWCF_Library2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\DocumentosFisicosService\DocumentosFisicosService1.wsdl" />
+    <None Include="Service References\ErrorService\AlfanetWCF_Library.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ErrorService\AlfanetWCF_Library1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ErrorService\AlfanetWCF_Library2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ErrorService\ErrorService1.wsdl" />
+    <None Include="Service References\RadicacionMasivaService\AlfanetWCF_Library.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RadicacionMasivaService\AlfanetWCF_Library1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RadicacionMasivaService\AlfanetWCF_Library2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RadicacionMasivaService\AlfanetWCF_Library3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RadicacionMasivaService\RadicacionMasivaService1.wsdl" />
+    <None Include="Service References\VisorImagenesService\AlfanetWCF_Library.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\VisorImagenesService\AlfanetWCF_Library1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\VisorImagenesService\AlfanetWCF_Library2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\VisorImagenesService\AlfanetWCF_Library3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\VisorImagenesService\VisorImagenesService1.wsdl" />
+    <None Include="Service References\WorkFlowService\AlfanetWCF_Library.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WorkFlowService\AlfanetWCF_Library1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WorkFlowService\AlfanetWCF_Library2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WorkFlowService\configuration91.svcinfo" />
+    <None Include="Service References\WorkFlowService\configuration.svcinfo" />
+    <None Include="Service References\WorkFlowService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="RadicacionMasiva\Ajax.asmx" />
+    <Content Include="RadicacionMasiva\ConsultaRadicacionMasiva.aspx" />
+    <Content Include="RadicacionMasiva\css\radicacionmasivastyle.css" />
+    <Content Include="RadicacionMasiva\FileUploads.aspx" />
+    <Content Include="RadicacionMasiva\image\Add.png" />
+    <Content Include="RadicacionMasiva\image\back.png" />
+    <Content Include="RadicacionMasiva\image\boton_editar_azul.png" />
+    <Content Include="RadicacionMasiva\image\btnEdit.png" />
+    <Content Include="RadicacionMasiva\image\uploadify.swf" />
+    <Content Include="RadicacionMasiva\image\warning.png" />
+    <Content Include="RadicacionMasiva\RadicacionMasiva.aspx" />
+    <Content Include="RadicacionMasiva\image\cancel.png" />
+    <Content Include="RadicacionMasiva\script\Calendars.js" />
+    <Content Include="RadicacionMasiva\script\jquery-1.4.4-vsdoc.js" />
+    <Content Include="RadicacionMasiva\script\jquery-1.4.4.min.js" />
+    <Content Include="RadicacionMasiva\script\jquery.uploadify.v2.1.4.min.js" />
+    <Content Include="RadicacionMasiva\script\consultas.js" />
+    <Content Include="RadicacionMasiva\script\RadicacionMasiva.js" />
+    <Content Include="RadicacionMasiva\script\swfobject.js" />
+    <Content Include="RadicacionMasiva\css\uploadify.css" />
+    <Content Include="RadicacionMasiva\script\Test.js" />
+    <Content Include="RadicacionMasiva\script\Visor.js" />
+    <Content Include="RadicacionRegistroMasivo\Ajax.asmx" />
+    <Content Include="RadicacionRegistroMasivo\css\radicacionmasivastyle.css" />
+    <Content Include="RadicacionRegistroMasivo\css\uploadify.css" />
+    <Content Include="RadicacionRegistroMasivo\FileUploads.aspx" />
+    <Content Include="RadicacionRegistroMasivo\image\Add.png" />
+    <Content Include="RadicacionRegistroMasivo\image\back.png" />
+    <Content Include="RadicacionRegistroMasivo\image\boton_editar_azul.png" />
+    <Content Include="RadicacionRegistroMasivo\image\btnEdit.png" />
+    <Content Include="RadicacionRegistroMasivo\image\cancel.png" />
+    <Content Include="RadicacionRegistroMasivo\image\uploadify.swf" />
+    <Content Include="RadicacionRegistroMasivo\image\warning.png" />
+    <Content Include="RadicacionRegistroMasivo\script\Calendars.js" />
+    <Content Include="RadicacionRegistroMasivo\script\consultas.js" />
+    <Content Include="RadicacionRegistroMasivo\script\jquery-1.4.4-vsdoc.js" />
+    <Content Include="RadicacionRegistroMasivo\script\jquery-1.4.4.min.js" />
+    <Content Include="RadicacionRegistroMasivo\script\jquery.uploadify.v2.1.4.min.js" />
+    <Content Include="RadicacionRegistroMasivo\script\RadicacionMasiva.js" />
+    <Content Include="RadicacionRegistroMasivo\script\RadRegScrips.js" />
+    <Content Include="RadicacionRegistroMasivo\script\swfobject.js" />
+    <Content Include="RadicacionRegistroMasivo\script\Test.js" />
+    <Content Include="RadicacionRegistroMasivo\script\Visor.js" />
+    <Content Include="RadicacionRegistroMasivo\Sticker\ControlTest.ascx" />
+    <Content Include="RadicacionRegistroMasivo\Sticker\Sticker.ascx" />
+    <Content Include="RadicacionRegistroMasivo\Sticker\Sticker.aspx" />
+    <Content Include="RecepcionFisicaDocumentos\ConsultasRecepcionFisica.aspx" />
+    <Content Include="RecepcionFisicaDocumentos\css\DocFisicosStyle.css" />
+    <Content Include="RecepcionFisicaDocumentos\css\uploadify.css" />
+    <Content Include="RecepcionFisicaDocumentos\Recepcion.aspx" />
+    <Content Include="RecepcionFisicaDocumentos\script\jquery-1.4.4-vsdoc.js" />
+    <Content Include="RecepcionFisicaDocumentos\script\jquery-1.4.4.min.js" />
+    <Content Include="RecepcionFisicaDocumentos\script\jquery.uploadify.v2.1.4.min.js" />
+    <Content Include="RecepcionFisicaDocumentos\script\RecepFisicaScript.js" />
+    <Content Include="RecepcionFisicaDocumentos\script\swfobject.js" />
+    <Content Include="RecepcionFisicaDocumentos\script\Test.js" />
+    <Content Include="RecepcionFisicaDocumentos\script\Visor.js" />
+    <Content Include="Scripts\jquery-1.8.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.9.1.custom.js" />
+    <Content Include="Scripts\jquery-ui-1.9.1.custom.min.js" />
+    <Content Include="Scripts\jquery.blockUI.js" />
+    <None Include="Service References\VisorImagenesService\configuration91.svcinfo" />
+    <None Include="Service References\VisorImagenesService\configuration.svcinfo" />
+    <None Include="Service References\VisorImagenesService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\RadicacionMasivaService\configuration91.svcinfo" />
+    <None Include="Service References\RadicacionMasivaService\configuration.svcinfo" />
+    <None Include="Service References\RadicacionMasivaService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ErrorService\configuration91.svcinfo" />
+    <None Include="Service References\ErrorService\configuration.svcinfo" />
+    <None Include="Service References\ErrorService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\DocumentosFisicosService\configuration91.svcinfo" />
+    <None Include="Service References\DocumentosFisicosService\configuration.svcinfo" />
+    <None Include="Service References\DocumentosFisicosService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\RadicacionMasivaService\AlfanetWCF_Library.disco" />
+    <None Include="Service References\AdminService\AlfanetWCF_Library.disco" />
+    <None Include="Service References\VisorImagenesService\AlfanetWCF_Library.disco" />
+    <None Include="Service References\WorkFlowService\AlfanetWCF_Library.disco" />
+    <None Include="Service References\ErrorService\AlfanetWCF_Library.disco" />
+    <None Include="Service References\DocumentosFisicosService\AlfanetWCF_Library.disco" />
+    <Content Include="Styles\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Styles\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Styles\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Styles\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Styles\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Styles\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Styles\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Styles\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Styles\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Styles\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="Styles\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="Styles\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\smoothness\jquery-ui-1.9.1.custom.css" />
+    <Content Include="Styles\smoothness\jquery-ui-1.9.1.custom.min.css" />
+    <Content Include="WorkFlow\Ajax.asmx" />
+    <Content Include="WorkFlow\css\workflowstyle.css" />
+    <Content Include="WorkFlow\image\attachment.png" />
+    <Content Include="WorkFlow\image\FondoBoton.png" />
+    <Content Include="WorkFlow\image\lupa.png" />
+    <Content Include="WorkFlow\script\Autocomplete.js" />
+    <Content Include="WorkFlow\script\Procesos.js" />
+    <Content Include="WorkFlow\script\wf_menu.js" />
+    <Content Include="WorkFlow\WorkFlow.aspx" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ObjGrupo.datasource" />
+    <None Include="Service References\AdminService\configuration91.svcinfo" />
+    <None Include="Service References\AdminService\configuration.svcinfo" />
+    <None Include="Service References\AdminService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Styles\Site.css" />
+    <Content Include="WebPrueba\Cache\Pruebas_Cache.aspx" />
+    <Content Include="WebPrueba\Pruebas.aspx" />
+    <None Include="Properties\DataSources\Alfanet.CommonObject.ConfigData.datasource" />
+    <None Include="Service References\RegistrosService\RegistrosService.wsdl" />
+    <None Include="Service References\RegistrosService\RegistrosWS.disco" />
+    <None Include="Service References\RegistrosService\configuration91.svcinfo" />
+    <None Include="Service References\RegistrosService\configuration.svcinfo" />
+    <None Include="Service References\RegistrosService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="Service References\RegistrosService\RegistrosWS2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WorkFlowService\WorkFlowService1.wsdl" />
+    <None Include="TemporalVisualisacion\6000286_9739542_1.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administracion\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\MaestroCiudades.aspx.cs">
+      <DependentUpon>MaestroCiudades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administracion\MaestroCiudades.aspx.designer.cs">
+      <DependentUpon>MaestroCiudades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AlfanetImagenes\VisorImagenes\Visor.aspx.cs">
+      <DependentUpon>Visor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AlfanetImagenes\VisorImagenes\Visor.aspx.designer.cs">
+      <DependentUpon>Visor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RadicacionMasiva\Ajax.asmx.cs">
+      <DependentUpon>Ajax.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RadicacionMasiva\ConsultaRadicacionMasiva.aspx.cs">
+      <DependentUpon>ConsultaRadicacionMasiva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadicacionMasiva\ConsultaRadicacionMasiva.aspx.designer.cs">
+      <DependentUpon>ConsultaRadicacionMasiva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RadicacionMasiva\FileUploads.aspx.cs">
+      <DependentUpon>FileUploads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadicacionMasiva\FileUploads.aspx.designer.cs">
+      <DependentUpon>FileUploads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RadicacionMasiva\Handler.ashx.cs">
+      <DependentUpon>Handler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="RadicacionMasiva\RadicacionMasiva.aspx.cs">
+      <DependentUpon>RadicacionMasiva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadicacionMasiva\RadicacionMasiva.aspx.designer.cs">
+      <DependentUpon>RadicacionMasiva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\Ajax.asmx.cs">
+      <DependentUpon>Ajax.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\FileUploads.aspx.cs">
+      <DependentUpon>FileUploads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\FileUploads.aspx.designer.cs">
+      <DependentUpon>FileUploads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\Sticker\ControlTest.ascx.cs">
+      <DependentUpon>ControlTest.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\Sticker\ControlTest.ascx.designer.cs">
+      <DependentUpon>ControlTest.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\Sticker\Sticker.ascx.cs">
+      <DependentUpon>Sticker.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\Sticker\Sticker.ascx.designer.cs">
+      <DependentUpon>Sticker.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\Sticker\Sticker.aspx.cs">
+      <DependentUpon>Sticker.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RadicacionRegistroMasivo\Sticker\Sticker.aspx.designer.cs">
+      <DependentUpon>Sticker.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionFisicaDocumentos\ConsultasRecepcionFisica.aspx.cs">
+      <DependentUpon>ConsultasRecepcionFisica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecepcionFisicaDocumentos\ConsultasRecepcionFisica.aspx.designer.cs">
+      <DependentUpon>ConsultasRecepcionFisica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecepcionFisicaDocumentos\Recepcion.aspx.cs">
+      <DependentUpon>Recepcion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecepcionFisicaDocumentos\Recepcion.aspx.designer.cs">
+      <DependentUpon>Recepcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\AdminService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\DocumentosFisicosService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ErrorService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\RadicacionMasivaService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\RegistrosService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\VisorImagenesService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\WorkFlowService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebPrueba\Cache\Pruebas_Cache.aspx.cs">
+      <DependentUpon>Pruebas_Cache.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPrueba\Cache\Pruebas_Cache.aspx.designer.cs">
+      <DependentUpon>Pruebas_Cache.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPrueba\Pruebas.aspx.cs">
+      <DependentUpon>Pruebas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPrueba\Pruebas.aspx.designer.cs">
+      <DependentUpon>Pruebas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkFlow\Ajax.asmx.cs">
+      <DependentUpon>Ajax.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WorkFlow\WorkFlow.aspx.cs">
+      <DependentUpon>WorkFlow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WorkFlow\WorkFlow.aspx.designer.cs">
+      <DependentUpon>WorkFlow.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AlfanetImagenes\VisorImagenes\Imagenes\MainMaster\Tabla\Nueva carpeta\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="RadicacionMasiva\temp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\AdminService\" />
+    <WCFMetadataStorage Include="Service References\DocumentosFisicosService\" />
+    <WCFMetadataStorage Include="Service References\ErrorService\" />
+    <WCFMetadataStorage Include="Service References\RadicacionMasivaService\" />
+    <WCFMetadataStorage Include="Service References\RegistrosService\" />
+    <WCFMetadataStorage Include="Service References\VisorImagenesService\" />
+    <WCFMetadataStorage Include="Service References\WorkFlowService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RegistrosService\RegistrosWS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RegistrosService\RegistrosWS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Alfanet.CommonLibrary\Alfanet.CommonLibrary.csproj">
+      <Project>{2E247D89-26FD-459B-8C12-3A261F28449E}</Project>
+      <Name>Alfanet.CommonLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alfanet.CommonObject\Alfanet.CommonObject.csproj">
+      <Project>{4F008856-A927-4686-8B1C-CD0BA52F3DAC}</Project>
+      <Name>Alfanet.CommonObject</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63962</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

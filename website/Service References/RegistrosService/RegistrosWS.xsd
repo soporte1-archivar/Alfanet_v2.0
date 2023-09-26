@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:57962/Alfanet.WCFServiceSite/RegistrosWS.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" />
+  <xs:element name="SaveRegistro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="Obj" nillable="true" type="q1:ObjExample" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q2:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SaveRegistroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SaveRegistroResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRegistro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="Obj" nillable="true" type="q3:ObjExample" />
+        <xs:element minOccurs="0" name="row" type="xs:int" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q4:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateRegistroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateRegistroResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteRegistro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="row" type="xs:int" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="config" nillable="true" type="q5:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteRegistroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteRegistroResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConfigurationInformation">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetConfigurationInformationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" minOccurs="0" name="GetConfigurationInformationResult" nillable="true" type="q6:ConfigData" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

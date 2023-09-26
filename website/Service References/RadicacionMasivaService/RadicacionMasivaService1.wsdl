@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="RadicacionMasivaService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.RadicacionMasivaService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.RadicacionMasivaService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.RadicacionMasivaService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Alfanet.CommonObject" />
+      <xsd:import schemaLocation="http://desktop-1aeev3k:57962/AlfanetWCF_Library.RadicacionMasivaService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRadicacionMasiva_GetPreview_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPreview" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetPreview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPreviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetParametrosIniciales_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetParametrosIniciales" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetParametrosIniciales_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetParametrosInicialesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetNaturalezas_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalezas" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetNaturalezas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNaturalezasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetDependencias_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDependencias" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetDependencias_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDependenciasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetAcciones_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAcciones" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetAcciones_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccionesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetMedios_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMedios" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetMedios_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMediosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetExpedientes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetExpedientes" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetExpedientes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetExpedientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_RadicarFacturas_InputMessage">
+    <wsdl:part name="parameters" element="tns:RadicarFacturas" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_RadicarFacturas_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RadicarFacturasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_BuscarRadicados_InputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarRadicados" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_BuscarRadicados_OutputMessage">
+    <wsdl:part name="parameters" element="tns:BuscarRadicadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ObtenerDatosDependencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosDependencia" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ObtenerDatosDependencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerDatosDependenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ValidateFiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateFiles" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ValidateFiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateFilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ClearTempImages_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearTempImages" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ClearTempImages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearTempImagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ValidarUsuarioPermitido_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarUsuarioPermitido" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_ValidarUsuarioPermitido_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidarUsuarioPermitidoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_UpdateRadicado_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRadicado" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_UpdateRadicado_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRadicadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_LoadFromCache_InputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFromCache" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_LoadFromCache_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadFromCacheResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetCiudades_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCiudades" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetCiudades_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCiudadesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetProcedencias_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcedencias" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetProcedencias_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcedenciasResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetResultadosBusqueda_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultadosBusqueda" />
+  </wsdl:message>
+  <wsdl:message name="IRadicacionMasiva_GetResultadosBusqueda_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetResultadosBusquedaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRadicacionMasiva">
+    <wsdl:operation name="GetPreview">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetPreview" message="tns:IRadicacionMasiva_GetPreview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetPreviewResponse" message="tns:IRadicacionMasiva_GetPreview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParametrosIniciales">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetParametrosIniciales" message="tns:IRadicacionMasiva_GetParametrosIniciales_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetParametrosInicialesResponse" message="tns:IRadicacionMasiva_GetParametrosIniciales_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalezas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetNaturalezas" message="tns:IRadicacionMasiva_GetNaturalezas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetNaturalezasResponse" message="tns:IRadicacionMasiva_GetNaturalezas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDependencias">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetDependencias" message="tns:IRadicacionMasiva_GetDependencias_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetDependenciasResponse" message="tns:IRadicacionMasiva_GetDependencias_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcciones">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetAcciones" message="tns:IRadicacionMasiva_GetAcciones_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetAccionesResponse" message="tns:IRadicacionMasiva_GetAcciones_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMedios">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetMedios" message="tns:IRadicacionMasiva_GetMedios_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetMediosResponse" message="tns:IRadicacionMasiva_GetMedios_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetExpedientes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetExpedientes" message="tns:IRadicacionMasiva_GetExpedientes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetExpedientesResponse" message="tns:IRadicacionMasiva_GetExpedientes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RadicarFacturas">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/RadicarFacturas" message="tns:IRadicacionMasiva_RadicarFacturas_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/RadicarFacturasResponse" message="tns:IRadicacionMasiva_RadicarFacturas_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="BuscarRadicados">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/BuscarRadicados" message="tns:IRadicacionMasiva_BuscarRadicados_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/BuscarRadicadosResponse" message="tns:IRadicacionMasiva_BuscarRadicados_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosDependencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/ObtenerDatosDependencia" message="tns:IRadicacionMasiva_ObtenerDatosDependencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/ObtenerDatosDependenciaResponse" message="tns:IRadicacionMasiva_ObtenerDatosDependencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateFiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/ValidateFiles" message="tns:IRadicacionMasiva_ValidateFiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/ValidateFilesResponse" message="tns:IRadicacionMasiva_ValidateFiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearTempImages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/ClearTempImages" message="tns:IRadicacionMasiva_ClearTempImages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/ClearTempImagesResponse" message="tns:IRadicacionMasiva_ClearTempImages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUsuarioPermitido">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/ValidarUsuarioPermitido" message="tns:IRadicacionMasiva_ValidarUsuarioPermitido_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/ValidarUsuarioPermitidoResponse" message="tns:IRadicacionMasiva_ValidarUsuarioPermitido_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRadicado">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/UpdateRadicado" message="tns:IRadicacionMasiva_UpdateRadicado_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/UpdateRadicadoResponse" message="tns:IRadicacionMasiva_UpdateRadicado_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadFromCache">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/LoadFromCache" message="tns:IRadicacionMasiva_LoadFromCache_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/LoadFromCacheResponse" message="tns:IRadicacionMasiva_LoadFromCache_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCiudades">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetCiudades" message="tns:IRadicacionMasiva_GetCiudades_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetCiudadesResponse" message="tns:IRadicacionMasiva_GetCiudades_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProcedencias">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetProcedencias" message="tns:IRadicacionMasiva_GetProcedencias_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetProcedenciasResponse" message="tns:IRadicacionMasiva_GetProcedencias_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResultadosBusqueda">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetResultadosBusqueda" message="tns:IRadicacionMasiva_GetResultadosBusqueda_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRadicacionMasiva/GetResultadosBusquedaResponse" message="tns:IRadicacionMasiva_GetResultadosBusqueda_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRadicacionMasiva" type="tns:IRadicacionMasiva">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetPreview">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetPreview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParametrosIniciales">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetParametrosIniciales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNaturalezas">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetNaturalezas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDependencias">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetDependencias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcciones">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetAcciones" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMedios">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetMedios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetExpedientes">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetExpedientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RadicarFacturas">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/RadicarFacturas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BuscarRadicados">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/BuscarRadicados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerDatosDependencia">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/ObtenerDatosDependencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateFiles">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/ValidateFiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearTempImages">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/ClearTempImages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarUsuarioPermitido">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/ValidarUsuarioPermitido" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRadicado">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/UpdateRadicado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadFromCache">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/LoadFromCache" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCiudades">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetCiudades" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcedencias">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetProcedencias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResultadosBusqueda">
+      <soap:operation soapAction="http://tempuri.org/IRadicacionMasiva/GetResultadosBusqueda" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RadicacionMasivaService">
+    <wsdl:port name="BasicHttpBinding_IRadicacionMasiva" binding="tns:BasicHttpBinding_IRadicacionMasiva">
+      <soap:address location="http://localhost:57962/AlfanetWCF_Library.RadicacionMasivaService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

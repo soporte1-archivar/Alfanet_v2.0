@@ -1,0 +1,54 @@
+.igpnl_NautilusControl
+{
+	border:solid 1px #A7A6AA;
+}
+
+
+.igpnl_NautilusPanel
+{
+	background-color:#F8F8F8;
+	background-position:bottom ;
+	background-image: url(images/activingbg.jpg);
+	cursor:default;
+}
+
+
+.igpnl_NautilusHeaderExpanded
+{
+	background-position:top ;
+	background-image: url(images/header.gif);
+	font-weight:bold;
+	font-size:xx-small;
+	font-family: Verdana;
+	border-bottom:solid 1px LightGrey;
+	margin-top:3px;
+	margin-bottom:3px;
+	padding-top:4px;
+	padding-bottom:4px;
+	cursor:hand;
+	color:White;
+}
+
+
+.igpnl_NautilusHeaderCollapsed
+{
+}
+
+
+.igpnl_NautilusHeaderHover
+{
+	background-position:top ;
+	background-image: url(images/header_hover.gif);
+	color:#223E6E;
+}
+
+
+.igpnl_NautilusGroupBoxControl
+{
+	background-position:bottom ;
+	background-image: url(images/activingbg.jpg);
+	border:solid 1px #A7A6AA;
+	cursor:default;
+}
+
+
